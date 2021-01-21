@@ -1,0 +1,83 @@
+.contact-bar
+{
+    background-color: #101010;
+}
+.contact-bar h1
+{
+    font-size: 40px;
+    line-height: 1.4;
+    font-family: cursive;
+}
+.contact-bar .container .breadcrumb-item a
+{
+    color: #515151 !important;
+}
+.contact-bar .active
+{
+    color: #888;
+}
+.contact-bar .breadcrumb
+{
+    background-color: transparent;
+    font-size: 15px;
+}
+.contact-bar .breadcrumb-item:hover a
+{
+    color: #333 !important;
+}
+.contact-form
+{
+    background-color: #161616;
+}
+.contact-form form input
+{
+    border: 1px solid #515151;
+}
+.contact-form input[type=text],input[type=email] , textarea
+{
+    background-color: transparent;
+    width: 100%;
+    color: #55595c;
+}
+.contact-form form input[type=text],input[type=email]
+{
+    padding: 12px 12px;
+}
+.contact-form input[type=submit]
+{
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    border-radius: 4px;
+}
+h3
+{
+    font-size: 25px;
+}
+.contact-form p
+{
+    color: #999;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.contact-form ul li
+{
+    color: #999;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.contact-form ul li i
+{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #333;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 7px;
+}

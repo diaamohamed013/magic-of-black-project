@@ -1,0 +1,94 @@
+.about-us
+{
+    background-image: url(../img/photo-1484519332611-516457305ff6-big.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    overflow: hidden;
+}
+.about-us .container h1
+{
+    font-size: 45px;
+    color: rgba(255,255,255,.97);
+}
+.about-us .dark
+{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 0,0,0,0.1 );
+}
+.about1
+{
+    background-color: #161616;
+}
+.task
+{
+    background-color: #161616;
+}
+.card
+{
+    border: transparent !important;
+    background-color: transparent;
+}
+.pic-scalling
+{
+    text-align: center;
+}
+.card-body
+{
+    text-align: center;
+}
+h5
+{
+    color: #fff;
+}
+.card-body .card-text
+{
+    font-size: 14px;
+    color: #888;
+    line-height: 1.5;
+}
+.pic-scalling i
+{
+    font-size: 33px;
+    padding-top: 20px;
+    height: 80px;
+    width: 80px;
+    color: white;
+    background-color: #333333;
+    border-radius: 100%;
+}
+.goal
+{
+    background-color: #1D1D1D;
+}
+.goal .nav .active
+{
+    color: #fff ;
+    background-color: #333 !important;
+}
+.goal .nav-link
+{
+    font-size: 13px;
+    font-weight: 400;
+    color: #949494;
+    background-color: #191919;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: all .2s;
+}
+.album ul .nav-item:hover .nav-link
+{
+    color: #fff;
+}
+.goal p
+{
+    color:#999;
+    font-size: 15px;
+    line-height: 1.8;
+    padding-top: 10px;
+}

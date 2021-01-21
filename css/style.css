@@ -1,0 +1,453 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img
+{
+    width: 100%;
+}
+a
+{
+    text-decoration: none !important;
+}
+ul
+{
+    list-style: none;
+}
+header
+{
+    background-color: rgb(32, 32, 32) !important;
+    border-bottom: 1px solid rgba(32, 32, 32, .8);
+}
+header .bg-light
+{
+    background-color: transparent !important;
+}
+header .navbar
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+header img
+{
+    width: 85%;
+}
+.navbar-nav .nav-item .nav-link
+{
+    color: white !important;
+    font-weight: 500;
+    padding: 0px 13px !important;   
+}
+nav .fa-search
+{
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+}
+nav button
+{
+    background-color: white !important;
+    border-color: #fff !important;
+
+}
+.home
+{
+    background-image: url(../img/full-3.jpg);
+    background-size: cover;
+    background-position: center top;
+    /* height: 500px; */
+    position: relative;
+    overflow: hidden;
+}
+.home .home-txt
+{
+    color: white;
+}
+.home .over-ground
+{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 0;
+    /* z-index: 2; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 0,0,0,0.3 );
+}
+.home-txt span
+{
+    font-size: 22px;
+    line-height: 1.6;
+    padding-top: 15px;
+}
+h1
+{
+    font-size: 80px;
+    line-height: 1.4;
+    padding-top: 20px;
+    color: white;
+}
+.home-txt p
+{
+    font-size: 22px;
+    line-height: 1.7;
+    padding-top: 20px;
+}
+p
+{
+    margin-bottom: 0 !important;
+}
+.home-txt .home-btn .btn
+{
+    padding: 12px 24px;
+    color: #121212;
+    background-color: white;
+    font-weight: 700;
+    font-size: 12px;
+    transition: all .2s;
+}
+.home-btn .btn:hover 
+{
+    opacity: .6;
+}
+.welcome
+{
+    background-color: #161616;
+}
+.welcome p
+{
+    padding-top: 10px;
+    line-height: 1.7;
+    color: #606060;
+    font-size: 18px;
+}
+h2
+{
+    color: white;
+    line-height: 1.4;
+    padding-bottom: 15px;
+}
+.about
+{
+    background-color: #1D1D1D;
+}
+.about p
+{
+    line-height: 1.7;
+    color:#999;
+}
+.about .line-con .line
+{
+    width: 35px;
+    height: 1px;
+    background-color: #333;
+}
+.album
+{
+    background-color: #161616;
+}
+.album .nav .nav-item .active
+{
+    color: #fff !important;
+    border-bottom: 2px solid rgba(117, 111, 111, 0.315);
+}
+.album .nav .nav-item .nav-link
+{
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #949494;
+    background-color: transparent !important;
+    transition: all .2s;
+}
+.album ul .nav-item:hover .nav-link
+{
+    color: #fff;
+}
+.fade .pic-scalling a
+{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.fade .pic-scalling a img
+{
+    transition: all .4s;
+}
+.fade .pic-scalling .overlay-ground
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.58);
+    opacity: 0;
+    transition: all .5s;
+}
+.fade .pic-scalling .overlay-icons
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    text-align: center;
+}
+.fade .overlay-icons i
+{
+    font-size: 18px;
+    color: #333333;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, .8);
+    padding-top: 15px;
+    opacity: 0;
+    transition: all .2s;
+    margin-left: 8px;
+
+}
+.fade .pic-scalling:hover .overlay-icons  i
+{
+    opacity: .8;
+}
+.fade .pic-scalling:hover img
+{
+    transform: scale(1.04);
+}
+.fade .pic-scalling:hover  a .overlay-ground
+{
+    opacity: 1;
+}
+.album-btn .btn
+{
+    color: white;
+    background-color: #333333;
+    font-size: 10px;
+    padding: 10px 25px;
+    border: transparent;
+}
+.news
+{
+    background-color: #1D1D1D;
+}
+.news1
+{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.card
+{
+    background-color: #232323;
+    border-color: transparent;
+}
+.news1 p
+{
+    color: #888;
+    font-size: 17px;
+    line-height: 1.7;
+}
+h3
+{
+    font-size: 32px;
+    line-height: 1.35;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.news .card a
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.news .card-body .card-title  a
+{
+    color: #cfcfcf;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+.card-body span
+{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(177, 169, 169);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.card-body p
+{
+    color: #999;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+.news a i
+{
+    vertical-align: middle;
+}
+.news a:hover 
+{
+    color: #333333;
+}
+.news .container .row .btn a
+{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #333333;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+.news .container .row .btn a i
+{
+    color: white;
+    padding-left: 2px;
+}
+footer
+{
+    background-color: #151515;
+}
+footer .row .foot-pic img
+{
+    width: 20%;
+}
+footer .data p
+{
+    color:#777;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+footer .links a  
+{
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #333;
+    transition: all .3s;
+    
+}
+.links a .fab
+{
+    color: #535353;
+    padding-top: 10px;
+    transition: all .2s;
+    
+}
+.links a:hover .fab
+{
+    color: #fff !important;
+}
+.links .face:hover 
+{
+    background-color: rgb(66,103,178);
+    
+} 
+.links .google:hover 
+{
+    background: #dd4b39 !important;
+    
+}
+.links .in:hover 
+{
+        background: #007bb5 !important;
+}
+.links .twit:hover 
+{
+    background-color: #00aced;
+
+}
+
+
+
+
+
+
+
+
+
+
+.floater-icon
+{
+    background-color: white;
+    text-align: center;
+    height: 85px;
+    width: 45px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    border: 2px solid transparent;
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: 0 -1px 17px 1px rgba(0,0,0,.09);
+    z-index: 5;
+}
+.floater-icon ul li a i
+{
+    color: #7E7E7E;
+    margin: 10px;
+    font-size: 17px;
+    transition: all .3s;
+}
+.floater-icon ul li a:hover i
+{
+    color: #218FE6;
+}
+@media (max-width:960px)
+{
+    header nav img
+    {
+        width: 95px;
+    }
+    .home .home-txt span 
+    {
+        font-size: 15px;
+    }
+    .home .home-txt p 
+    {
+        font-size: 15px;
+    }
+    .home-txt h1
+    {
+        font-size: 38px;
+    }
+    .home-txt .home-btn .btn
+    {
+        padding: 8px 15px;
+    }
+}
+@media (max-width:376px)
+{
+    .home .container
+    {
+        padding-left: 10px !important;
+    }
+    .welcome h2
+    {
+        font-size: 28px;
+    }
+    .news1 p
+    {
+        font-size: 14px;
+    }
+    .album h3
+    {
+        font-size: 28px;
+    }
+    footer .row .foot-pic img
+    {
+        width: 35%;
+    }
+}
